@@ -11,6 +11,7 @@ where key_1 is not null
 
 
 2) ---------------------------------------------------------
+![Image alt](https://github.com/SergeyPerm59/dwh_test/blob/main/img_1.png)
 
 Например у нас данные записываются в hub1 и у него есть sattelit Sat_tab_1, когда мы удаляем (1,20), у нас в саттелите ставится дата LoadEndDate и данная запись не будет больше выводиться.
 
@@ -106,6 +107,8 @@ create table tt
 );
 
  -- data value
+ ![Image alt](https://github.com/SergeyPerm59/dwh_test/blob/main/img_2.jpg)
+ 
  --создаем хабы
 drop table if exists Hub_t1;
 create table Hub_t1 (
@@ -157,6 +160,8 @@ create table Sat_tt (
     f42 int,
 	PRIMARY KEY (hub1_hash_key, LoadDate)
 );
+
+![Image alt](https://github.com/SergeyPerm59/dwh_test/blob/main/img_3.jpg)
 
 -- anchor modeling
 Модель была разработана с помощью сайта https://www.anchormodeling.com/modeler/latest/ и сохранена

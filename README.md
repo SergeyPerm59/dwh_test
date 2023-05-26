@@ -165,5 +165,8 @@ create table Sat_tt (
 ![Image alt](https://github.com/SergeyPerm59/dwh_test/blob/main/img_3_1.jpg)
 
 -- anchor modeling
+
 Модель была разработана с помощью сайта https://www.anchormodeling.com/modeler/latest/ и сохранена
 в файле anchorModel.sql  https://github.com/SergeyPerm59/dwh_test/blob/main/anchorModel.sql
+
+В эту модель нужно на практике погружаться, теоретический сложно её прочуствовать.

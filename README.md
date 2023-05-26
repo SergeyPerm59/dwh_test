@@ -161,7 +161,7 @@ create table Sat_tt (
 	PRIMARY KEY (hub1_hash_key, LoadDate)
 );
 
-![Image alt](https://github.com/SergeyPerm59/dwh_test/blob/main/img_3.jpg)
+![Image alt](https://github.com/SergeyPerm59/dwh_test/blob/main/img_3_1.jpg)
 
 -- anchor modeling
 Модель была разработана с помощью сайта https://www.anchormodeling.com/modeler/latest/ и сохранена
